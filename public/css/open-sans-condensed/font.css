@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'Open Sans Condensed';
+	font-style: normal;
+	font-weight: 300;
+	src:
+		local('Open Sans Cond Light'),
+		local('OpenSans-CondensedLight'),
+		/* from http://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xOnoCx_jK1JUF_-5xuexfsU.eot */
+		url('Open_Sans_Condensed_300.eot?#iefix') format('embedded-opentype'),
+		/* from http://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xF1YPouZEKgzpqZW9wN-3Ek.woff */
+		url('Open_Sans_Condensed_300.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xBEur64QvLD-0IbiAdTUNXE.woff2 */
+		url('Open_Sans_Condensed_300.woff2') format('woff2'),
+		/* from http://fonts.gstatic.com/l/font?kit=gk5FxslNkTTHtojXrkp-xHWv8Nzt8mDniOqXwxRfZic&skey=2f86f64984be1bbf#OpenSansCondensed */
+		url('Open_Sans_Condensed_300.svg#OpenSansCondensed') format('svg'),
+		/* from http://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xD1GzwQ5qF9DNzkQQVRhJ4g.ttf */
+		url('Open_Sans_Condensed_300.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Open Sans Condensed';
+	font-style: normal;
+	font-weight: 700;
+	src:
+		local('Open Sans Condensed Bold'),
+		local('OpenSans-CondensedBold'),
+		/* from http://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xK1G_hHhJSbmG3TYw9dbn0A.eot */
+		url('Open_Sans_Condensed_700.eot?#iefix') format('embedded-opentype'),
+		/* from http://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xONSK5BxN3NFS4EJkViHIqo.woff */
+		url('Open_Sans_Condensed_700.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xIF8zhZCJ7x9Pr62cRgaVUA.woff2 */
+		url('Open_Sans_Condensed_700.woff2') format('woff2'),
+		/* from http://fonts.gstatic.com/l/font?kit=gk5FxslNkTTHtojXrkp-xF_KRdOo7MPcl77ahlJwp_0&skey=695af3be40ce75bf#OpenSansCondensed */
+		url('Open_Sans_Condensed_700.svg#OpenSansCondensed') format('svg'),
+		/* from http://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xJhsE6jcpsD2oq89kgohWx0.ttf */
+		url('Open_Sans_Condensed_700.ttf') format('truetype');
+}

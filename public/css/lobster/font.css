@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'Lobster Two';
+	font-style: normal;
+	font-weight: 400;
+	src:
+		local('Lobster Two'),
+		local('LobsterTwo'),
+		/* from http://fonts.gstatic.com/s/lobstertwo/v8/Law3VVulBOoxyKPkrNsAaGfQcKutQXcIrRfyR5jdjY8.eot */
+		url('Lobster_Two_400.eot?#iefix') format('embedded-opentype'),
+		/* from http://fonts.gstatic.com/s/lobstertwo/v8/Law3VVulBOoxyKPkrNsAaIbN6UDyHWBl620a-IRfuBk.woff */
+		url('Lobster_Two_400.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/lobstertwo/v8/Law3VVulBOoxyKPkrNsAaI4P5ICox8Kq3LLUNMylGO4.woff2 */
+		url('Lobster_Two_400.woff2') format('woff2'),
+		/* from http://fonts.gstatic.com/l/font?kit=Law3VVulBOoxyKPkrNsAaHNsigHlcrQGNV8nkUSFQfc&skey=9608b5afa19726d9#LobsterTwo */
+		url('Lobster_Two_400.svg#LobsterTwo') format('svg'),
+		/* from http://fonts.gstatic.com/s/lobstertwo/v8/Law3VVulBOoxyKPkrNsAaJ0EAVxt0G0biEntp43Qt6E.ttf */
+		url('Lobster_Two_400.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Lobster Two';
+	font-style: normal;
+	font-weight: 700;
+	src:
+		local('Lobster Two Bold'),
+		local('LobsterTwo-Bold'),
+		/* from http://fonts.gstatic.com/s/lobstertwo/v8/bmdxOflBqMqjEC0-kGsIiLFt29aCHKT7otDW9l62Aag.eot */
+		url('Lobster_Two_700.eot?#iefix') format('embedded-opentype'),
+		/* from http://fonts.gstatic.com/s/lobstertwo/v8/bmdxOflBqMqjEC0-kGsIiDqR_3kx9_hJXbbyU8S6IN0.woff */
+		url('Lobster_Two_700.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/lobstertwo/v8/bmdxOflBqMqjEC0-kGsIiIlIZu-HDpmDIZMigmsroc4.woff2 */
+		url('Lobster_Two_700.woff2') format('woff2'),
+		/* from http://fonts.gstatic.com/l/font?kit=bmdxOflBqMqjEC0-kGsIiHtNmQEE9wZ6UZlmiISB1pg&skey=2e1deeaaffb8f661#LobsterTwo */
+		url('Lobster_Two_700.svg#LobsterTwo') format('svg'),
+		/* from http://fonts.gstatic.com/s/lobstertwo/v8/bmdxOflBqMqjEC0-kGsIiJ_TkvowlIOtbR7ePgFOpF4.ttf */
+		url('Lobster_Two_700.ttf') format('truetype');
+}
