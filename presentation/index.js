@@ -28,9 +28,6 @@ import preloader from "spectacle/lib/utils/preloader";
 // Import theme
 import createTheme from "spectacle/lib/themes/default";
 
-// Import custom component
-import Interactive from "../assets/interactive";
-
 // Require CSS
 require("normalize.css");
 require("spectacle/lib/themes/default/index.css");
@@ -38,7 +35,10 @@ require("spectacle/lib/themes/default/index.css");
 
 const images = {
   pull_request: require('../assets/pull-request.png'),
-  git_tree: require('../assets/git-tree.png')
+  git_tree: require('../assets/git-tree.png'),
+  react: require('../assets/react_logo.png'),
+  docker: require('../assets/docker_logo.png'),
+  angular: require('../assets/angular_logo.png')
 };
 
 preloader(images);
@@ -87,25 +87,29 @@ export default class Presentation extends React.Component {
             <Slide>
                 <Heading size={1} lineHeight={1.5}>Software Livre saindo das Empresas</Heading>
             </Slide>
-            <Slide>
+            <Slide bgColor="#2c3e50">
                 <Layout>
                     <Fill>
-                        <Heading size={4}>
+                        <Image src={images.react.replace("/", "")} />
+                        <Heading size={4} textColor="white">
                             React, React Native do Facebook
                         </Heading>
                     </Fill>
                     <Fill>
-                        <Heading size={4}>
+                        <Image src={images.docker.replace("/", "")} />
+                        <Heading size={4} textColor="white">
                             Docker da Docker inc.
                         </Heading>
                     </Fill>
                     <Fill>
-                        <Heading size={4}>
+                        <Image src={images.angular.replace("/", "")} />
+                        <Heading size={4} textColor="white">
                             Angular do Google
                         </Heading>
                     </Fill>
                 </Layout>
-                <hr style={{border: '1px solid #cccccc'}} />
+            </Slide>
+            <Slide>
                 <Layout>
                     <Fill>
                         <Heading size={4}>
