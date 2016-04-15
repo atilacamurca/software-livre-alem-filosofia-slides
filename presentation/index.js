@@ -38,7 +38,11 @@ const images = {
   git_tree: require('../assets/git-tree.png'),
   react: require('../assets/react_logo.png'),
   docker: require('../assets/docker_logo.png'),
-  angular: require('../assets/angular_logo.png')
+  angular: require('../assets/angular_logo.png'),
+  bootstrap: require('../assets/bootstrap_logo.png'),
+  swift: require('../assets/swift_logo.png'),
+  atom: require('../assets/atom_logo.png'),
+  git: require('../assets/git_logo.png')
 };
 
 preloader(images);
@@ -109,20 +113,23 @@ export default class Presentation extends React.Component {
                     </Fill>
                 </Layout>
             </Slide>
-            <Slide>
+            <Slide bgColor="#2c3e50">
                 <Layout>
                     <Fill>
-                        <Heading size={4}>
+                        <Image src={images.bootstrap.replace("/", "")} />
+                        <Heading size={4} textColor="white">
                             Bootstrap do Twitter
                         </Heading>
                     </Fill>
                     <Fill>
-                        <Heading size={4}>
+                        <Image src={images.swift.replace("/", "")} />
+                        <Heading size={4} textColor="white">
                             Swift da Apple
                         </Heading>
                     </Fill>
                     <Fill>
-                        <Heading size={4}>
+                        <Image src={images.atom.replace("/", "")} />
+                        <Heading size={4} textColor="white">
                             Atom do GitHub
                         </Heading>
                     </Fill>
@@ -131,10 +138,12 @@ export default class Presentation extends React.Component {
             <Slide>
                 <Heading size={1} lineHeight={1.5}>Contribuir com Software Livre</Heading>
             </Slide>
-            <Slide>
-                <Heading size={1}>
-                    Git - Linus Torvalds
+            <Slide bgColor="#F5F5F5">
+                <Image src={images.git.replace("/", "")} />
+                <Heading size={1} textColor="#F03C2E">
+                    Linus Torvalds
                 </Heading>
+                <Text>mesmo criador do Linux</Text>
                 <Heading size={2}>
                     GitHub, Bitbucket
                 </Heading>
@@ -144,29 +153,8 @@ export default class Presentation extends React.Component {
                 <Image src={images.pull_request.replace("/", "")} margin="10px auto 40px" height="300"/>
                 <Text fit>1. Branch, 2. Commits, 3. Pull Request, 4. Discuss, 5. Deploy, 6. Merge</Text>
             </Slide>
-            <Slide>
-                <Heading size={1} lineHeight={1.5}>Grafos e Git</Heading>
-                <Layout>
-                    <Fill>
-                        <Heading size={4} margin={10}>
-                            Git is implemented as a directed acyclic graph.
-                        </Heading>
-                    </Fill>
-                    <Fill>
-                        <Image src={images.git_tree.replace("/", "")} margin="10px auto 40px" height="400"/>
-                    </Fill>
-                </Layout>
-            </Slide>
         </Deck>
       </Spectacle>
     );
   }
 }
-
-/**
- * Software Livre no mercado de trabalho
- * Iniciar uma empresa
- * Aprender informática
- * Empresas estão apostando em SL
- * Facilidade em contribuir aumentou
- */
